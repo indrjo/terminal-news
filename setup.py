@@ -13,8 +13,8 @@ setup(
         'newspaper3k',
         'rich',
         'duckduckgo_search',
-        'dateparser',  # Add dateparser
-        'lxml[html_clean]'  # Add lxml with html_clean
+        'dateparser',
+        'lxml[html_clean]'
     ],
     include_package_data=True,
     package_data={'': ['settings.ini']},
